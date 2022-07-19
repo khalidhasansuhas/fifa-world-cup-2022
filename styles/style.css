@@ -1,0 +1,57 @@
+/* utilities */
+body{
+    background-color: rgb(224, 219, 219);
+}
+
+/* --------------------------------------------------------
+                       Header section
+--------------------------------------------------------- */
+.head-container{
+    display: flex;
+    background-color: rgb(25, 68, 68);
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    padding: 30px 20px 0 20px;
+}
+.head-text{
+    width: 50%;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 50px;
+    object-fit: cover;
+  
+    
+}
+.head-text h1{
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.head-image{
+    width: 50%;
+    margin: 0;
+}
+.head-text> p{
+    margin-bottom: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: .75rem;
+}
+.head-button{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top:30px;
+    border-radius: 5px;
+    
+}
+
+.head-container> .head-image> img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:left;
+}
