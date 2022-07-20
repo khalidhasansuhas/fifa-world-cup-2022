@@ -73,8 +73,10 @@ main{
 }
 .main-container{
     width: 80vw;
-    display:flex;
+    display:grid;
+    grid-template-columns: 250px 1fr;
     margin: auto;
+    object-fit: cover;
     
     padding: 50px 0 50px 0;
 
@@ -117,8 +119,6 @@ main{
     text-decoration: none;
     color: black;
 }
-
-
 /* --------------------------------blog section----------------------------- */
 .blogs{
     width: 100%;
@@ -127,42 +127,28 @@ main{
     gap: 20px;
     
 }
-.blogs img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-   
-}
-.blog{
-    border: 1px solid rgb(148, 144, 144);
-    border-radius: 10px;
-    overflow: hidden;
-}
 .thumbnail{
-    height: 200px;
-    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+   justify-content: space-evenly; 
+}
+.thumbnail div{
+    width: auto;
+    height: auto;
+}
+.thumbnail h3{
+    font-size: 1rem;
+}
+.thumbnail img {
+    max-width: 100%;
+    object-fit: cover; 
 }
 
-.blog-info a{
-    text-decoration: none;
-    background-color: rgb(209, 216, 214);
-    color: black;
-    font-size: .75rem;
-    border: 1px solid black;
-    margin-left: 10px;
-    padding: 5px;
-    border-radius: 5px;
-}
-.blog-info h3{
-    padding-left: 10px;
-}
-.fa-trophy{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.fa-comment-dots{
-    padding-left: 10px;
-    padding-right: 10px;
+.blog{
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 /* ----------------------------------------------------------------------
                                   footer
