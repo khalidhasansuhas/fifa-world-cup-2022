@@ -119,47 +119,20 @@ main{
     text-decoration: none;
     color: black;
 }
-/* --------------------------------blog section----------------------------- */
-.blogs{
-    width: 100%;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
-    
-}
-.thumbnail{
-    max-width: 100%;
-    height: auto;
+/* -----------------------------Group section----------------------------- */
+.groups{
+    padding: 0px;
+    margin: 0px;
     display: flex;
-    padding: 10px;
-    
-   justify-content: space-evenly; 
-}
-.thumbnail div{
-    width: auto;
-    height: auto;
-    
-    object-fit: cover;
-}
-.thumbnail h3{
-    font-size: 1rem;
-}
-.thumbnail img {
     max-width: 100%;
-    object-fit: cover; 
-
 }
 
-.blog{
-    border: 1px solid gray;
+.groups img{
     border-radius: 10px;
-}
-.blog-info>small{
-    padding-left: 10px;
-}
-
-.blog-title{
-    padding-left: 10px;
+    object-fit: cover;
+    object-position:right;
+    max-width: 100%;
+    min-width: 100%;
 }
 /* ----------------------------------------------------------------------
                                   footer
@@ -176,6 +149,7 @@ footer h1 {
 footer hr{
     width: 90%;
 }
+
 /* -----------------------------footer menu section------------------------- */
 .menu-item{
     display:flex;
