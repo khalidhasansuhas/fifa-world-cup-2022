@@ -73,8 +73,8 @@ main{
     width: 80vw;
     display:flex;
     margin: auto;
-    border: 1px solid red;
-    padding: 30px 0 0 0;
+    
+    padding: 50px 0 50px 0;
 
     
 }
@@ -141,6 +141,8 @@ main{
 .blog-info a{
     text-decoration: none;
     background-color: rgb(209, 216, 214);
+    color: black;
+    font-size: .75rem;
     border: 1px solid black;
     margin-left: 10px;
     padding: 5px;
@@ -152,4 +154,40 @@ main{
 .fa-comment-dots{
     padding-left: 10px;
     padding-right: 10px;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+
+}
+footer h1 { 
+    text-align: center;
+    padding: 20px;
+}
+footer hr{
+    width: 90%;
+}
+.menu-item{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu-item> ul{
+    display: inline-flex;
+}
+
+.menu-item li{
+    
+    list-style: none;
+    padding: 20px;   
+
+}
+.menu-item a{
+    text-decoration: none;
+    color: white;
+    font-size: .75rem;
+
 }
