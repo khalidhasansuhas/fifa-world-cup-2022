@@ -148,7 +148,11 @@ main{
     padding: 5px;
     border-radius: 5px;
 }
+.blog-info h3{
+    padding-left: 10px;
+}
 .fa-trophy{
+    padding-left: 10px;
     padding-right: 10px;
 }
 .fa-comment-dots{
