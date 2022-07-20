@@ -1,6 +1,12 @@
 /* utilities */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
 body{
     background-color: rgb(224, 219, 219);
+    margin:0;
+    padding: 0;
 }
 
 /* --------------------------------------------------------
@@ -13,7 +19,7 @@ body{
     margin: auto;
     border-radius: 10px;
     color: white;
-    padding: 30px 20px 0 20px;
+    
 }
 .head-text{
     width: 50%;
@@ -32,6 +38,7 @@ body{
 .head-image{
     width: 50%;
     margin: 0;
+    padding-right: 20px;
 }
 .head-text> p{
     margin-bottom: 10px;
@@ -54,4 +61,95 @@ body{
     width: 100%;
     object-fit: cover;
     object-position:left;
+}
+
+/*--------------------------------------------------
+                    Main body section
+----------------------------------------------------- */
+main{
+    margin: auto;
+}
+.main-container{
+    width: 80vw;
+    display:flex;
+    margin: auto;
+    border: 1px solid red;
+    padding: 30px 0 0 0;
+
+    
+}
+/* sidebar*/
+.sidebar-container{
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+   
+    background-color: rgb(224, 219, 219);
+    
+}
+.sidebar{
+    width: 90%;
+    height: 170px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(9, 47, 90);
+
+}
+.sidebar div{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+    
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* blog */
+.blogs{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.blogs img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.blog{
+    border: 1px solid rgb(148, 144, 144);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.thumbnail{
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.blog-info a{
+    text-decoration: none;
+    background-color: rgb(209, 216, 214);
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.fa-trophy{
+    padding-right: 10px;
+}
+.fa-comment-dots{
+    padding-left: 10px;
+    padding-right: 10px;
 }
