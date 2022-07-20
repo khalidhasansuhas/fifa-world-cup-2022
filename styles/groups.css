@@ -64,6 +64,11 @@ body{
     object-fit: cover;
     object-position:left;
 }
+.head-image:hover{
+    width: 100%;
+    transition: 2s ease-in-out;
+}
+
 
 /*-----------------------------------------------------------------
                     Main body section
