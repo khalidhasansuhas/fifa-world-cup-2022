@@ -172,6 +172,9 @@ main{
     padding-left: 10px;
     padding-right: 10px;
 }
+section>button{
+    display: none;
+}
 /* ----------------------------------------------------------------------
                                   footer
 -------------------------------------------------------------------------- */
@@ -209,6 +212,17 @@ footer hr{
     text-decoration: none;
     color: white;
     font-size: .75rem;
+}
+/* ----------social media section--------- */
+footer>p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer>p>a{
+    font-size: 1.7rem;
+    padding-left: 10px;
+    color: blue;
 }
 
 /* ------------------------------------
@@ -274,7 +288,11 @@ justify-content: center;
         color: white;
         background-color: black;
     }
+    section>button{
+        display: none;
+    }
 }
+
  /*----------------------------------------
                tablet view
   --------------------------------------------- */
@@ -324,5 +342,21 @@ justify-content: center;
         color: white;
         background-color: black;
     }
-
+    section>button{
+        visibility: visible;
+        display: flex;
+        width: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+        padding: 10px 0;
+        background-color: tomato;
+        border: none;
+        border-radius: 5px;
+    }
+    section>button>a{
+        text-decoration: none;
+    }
 }

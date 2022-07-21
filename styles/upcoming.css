@@ -203,3 +203,14 @@ footer hr{
     color: white;
     font-size: .75rem;
 }
+/* ----------social media section--------- */
+footer>p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer>p>a{
+    font-size: 1.7rem;
+    padding-left: 10px;
+    color: blue;
+}
